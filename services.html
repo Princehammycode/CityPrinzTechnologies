@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>CityPrinz Technologies</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+        <link rel="stylesheet" href="font6/css/all.css">
+    </head>
+    
+    <body>
+        <section class="service_header">
+           <nav>
+                <a href="index.html"><img src="images/logo.png" style="width: 290px;"></a>
+                <div class="nav_links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about us.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Our Services</h1>
+
+        </section>
+
+        
+        <section class="services">
+            <h2>We provide quality designs ranging from Businesscards, Carrieerbags and Nylon bags designs, <br>Logo designs, Flyers design,
+                Banner design, Brand Consulting (Mugs, T-shirt,Jotters, Books, Pen etc) <br> AND MANY MORE ......</h2>
+            </section>
+
+        <!-- Slider -->
+        <section>
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+
+                     <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/Businesscardnew3.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Carrierbagnew1.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Logonew1.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Nylonbagnew1.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Branding1.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Businesscardnew6.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Carrierbagnew5.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Logonew4.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Nylonbagnew2.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Branding2.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Businesscardnew8.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Carrieerbagnew6.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Logonew5.jpg"></div>
+                    <div class="swiper-slide"><img src="images/Branding3.jpg"></div>
+                    
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+  
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+  
+                </div>
+            </div>
+        </section>
+        <a href="contact.html" class="action_btn new_btn swiper_btn">REQUEST AN ORDER</a>
+
+                           
+        <!------Footer------->
+        <section class="footer">
+            <h4>More info</h4>
+            <i class="fa-solid fa-envelope"></i> cityprinz@gmail.com <br>
+            <i class="fa-solid fa-phone"></i> +234 8104 615 587 <br><br>
+
+            <h4>Click on the Icons below to visit our Social Media Handles</h4>
+            
+            <a href="www.instagram.com/cityprinz.designs" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/CityPrinz-Technologies-378872938949161/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://wa.me/+2348104615587" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>  
+            
+            <p>Copyright © 2022</p>
+
+        </section>
+ 
+ 
+        <!-- Slides Scripting -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay:{
+                    delay: 3000,
+                    disableOnInteraction: false, 
+                },
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+         });
+        </script>
+    </body>
+</html>
